@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need it?
+
+When I initialize a new repository, git takes an existing directory 
+and makes a git repository out of it. There are no commits and 
+all the files included in the directory stay in it. I need it, 
+because without it I couldn't make any commits.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+The staging area isn't really a directory. It is just a clipboard
+where I can add things which I want to commit. It offers a lot of
+control on which files I want to have in one commit.
