@@ -5,6 +5,7 @@ and makes a git repository out of it. There are no commits and
 all the files included in the directory stay in it. I need it, 
 because without it I couldn't make any commits.
 
+
 How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 
@@ -12,9 +13,21 @@ The staging area isn't really a directory. It is just a clipboard
 where I can add things which I want to commit. It offers a lot of
 control on which files I want to have in one commit.
 
+
 How can you use the staging area to make sure you have one commit per 
 logical change?
 
 With assistance of the staging area I can view the changes between 
 the staging area and the most recent commit using git diff --staged. 
 Therefore I can make sure that the change is a logical one.
+
+
+What are sometimes situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+When I want to have slightly different versions of a project for
+example, two playing modes or two language versions or different
+difficulty levels branches are useful to keep track of the different 
+versions. Branches store different commits. If I'm on one branch 
+I can commit something which will only be commited in this branch
+but not the other ones.
