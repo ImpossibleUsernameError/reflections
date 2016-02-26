@@ -11,3 +11,10 @@ repository? What value do you think it offers?
 The staging area isn't really a directory. It is just a clipboard
 where I can add things which I want to commit. It offers a lot of
 control on which files I want to have in one commit.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+With assistance of the staging area I can view the changes between 
+the staging area and the most recent commit using git diff --staged. 
+Therefore I can make sure that the change is a logical one.
