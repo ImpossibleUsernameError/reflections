@@ -31,3 +31,11 @@ difficulty levels branches are useful to keep track of the different
 versions. Branches store different commits. If I'm on one branch 
 I can commit something which will only be commited in this branch
 but not the other ones.
+
+
+How do the diagrams help you visualize the branch structure?
+
+In the diagrams I see which branches exist and which commit has 
+which parent. I also can see which commits are unreachable when I
+commited them from a detached HEAD state. It helps to understand the
+structure better.
