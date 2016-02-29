@@ -50,3 +50,12 @@ Therefore the current branch adds all of the other branches'
 commits to it's history. It's represented in the diagram with the
 additional commit. It's useful if you added a new branch for a feature
 for example and the code works you can merge it with the master.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+If you do it manually, you have a lot of work to do. Also if there are 
+some conflicts between two different versions of code, you might not see
+them and get into a conflict. Git's automatic merging finds conflicts
+and shows where they are. 
