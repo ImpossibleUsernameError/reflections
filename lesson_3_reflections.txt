@@ -13,3 +13,16 @@ Git automatically stay up-to-date with your remote repository?
 There may be some commits I don't want to have on my local
 repository, for example I make changes from a different computer but 
 they don't make a lot of sense.
+
+
+Describe the difference between forks, clones, and branches. When
+would you use one instead of another?
+
+A fork clones a repository from another Github User to my User on 
+Github but not on my local computer. I use it when I want to 
+continue someone else's work, but want the changes on my User or
+I have no permission to change it on his repository. A clone clones
+a repository from a specified URL (Github) to a local repository on 
+my computer. I use it when I want to get a repository to my computer.
+A branch is kind of a split part of my commit history used to
+experiment or build a new feature and so on.
