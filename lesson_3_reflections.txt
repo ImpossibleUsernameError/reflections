@@ -26,3 +26,10 @@ a repository from a specified URL (Github) to a local repository on
 my computer. I use it when I want to get a repository to my computer.
 A branch is kind of a split part of my commit history used to
 experiment or build a new feature and so on.
+
+
+What is the benefit of having a copy of the last known state of
+the remote stored locally?
+
+I can check if I want those changes another person has made and 
+added to my repository on Github.
